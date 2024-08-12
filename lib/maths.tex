@@ -1,0 +1,57 @@
+\NewDocumentCommand{\app}{ m m }{\mathop{{#2} \mathrel{\kl[\app]{\triangleright}} {#1}}}
+\knowledge{\app}{notion}
+
+\NewDocumentCommand{\Res}{}{ \mathop{\kl[\Res]{\mathsf{Res}}}}
+\knowledge{\Res}{notion}
+
+
+\NewDocumentCommand{\resleq}{ m m }{\mathrel{\kl[\resleq]{\leq_{{#1},{#2}}}}}
+\knowledge{\resleq}{notion}
+\NewDocumentCommand{\resleqsf}{ m m }{\mathrel{\kl[\resleqsf]{\leq_{{#1},{#2}}^{\mathsf{sf}}}}}
+\knowledge{\resleqsf}{notion}
+
+\NewDocumentCommand{\prefleq}{}{\mathrel{\kl[\prefleq]{\sqsubseteq_{\mathsf{pref}}}}}
+\knowledge{\prefleq}{notion}
+\NewDocumentCommand{\prefle}{}{\sqsubset_{\mathsf{pref}}}
+\NewDocumentCommand{\preforth}{}{\bot_{\mathsf{pref}}}
+
+
+\NewDocumentCommand{\aTransd}{}{\mathcal{A}}
+
+\NewDocumentCommand{\NPoly}{O{}}{\kl[\NPoly]{\mathbb{N}\mathsf{Poly}_{#1}}}
+\NewDocumentCommand{\ZPoly}{O{}}{\kl[\ZPoly]{\mathbb{Z}\mathsf{Poly}_{#1}}}
+\NewDocumentCommand{\NSF}{O{}}{\kl[\NSF]{\mathbb{N}\mathsf{SF}_{#1}}}
+\NewDocumentCommand{\ZSF}{O{}}{\kl[\ZSF]{\mathbb{Z}\mathsf{SF}_{#1}}}
+\NewDocumentCommand{\ZRat}{}{\kl[\ZRat]{\mathbb{Z}\mathsf{Series}}}
+\NewDocumentCommand{\NRat}{}{\kl[\NRat]{\mathbb{N}\mathsf{Series}}}
+\NewDocumentCommand{\ZCommut}{}{\kl[\ZCommut]{\mathsf{Commut}}}
+
+\knowledge{\Poly}{notion}
+\knowledge{\SF}{notion}
+\knowledge{\NPoly}{notion}
+\knowledge{\ZPoly}{notion}
+\knowledge{\NSF}{notion}
+\knowledge{\ZSF}{notion}
+\knowledge{\ZRat}{notion}
+\knowledge{\NRat}{notion}
+\knowledge{\ZCommut}{notion}
+
+\NewDocumentCommand{\npolyleq}{ O{} }{\mathrel{\kl[\npolyleq]{\preceq_{\Nat #1}}}}
+\knowledge{\npolyleq}{notion}
+\NewDocumentCommand{\zpolyequiv}{ O{} }{\mathrel{\kl[\zpolyequiv]{\equiv_{\Rel #1}}}}
+\knowledge{\zpolyequiv}{notion}
+
+
+
+\NewDocumentCommand{\BadExOk}{}{\mathsf{f}}
+\NewDocumentCommand{\BadExKo}{}{\mathsf{g}}
+
+\NewDocumentCommand{\translate}{m}{\mathop{\kl[\translate]{\tau_{#1}}}}
+\knowledge{\translate}{notion}
+\NewDocumentCommand{\Diff}{m m}{ \mathop{\kl[\Diff]{\Delta_{#1}}}(#2) }
+\knowledge{\Diff}{notion}
+
+\NewDocumentCommand{\vcount}{ O{} m }{|#2|_{#1}}
+
+\newcommand{\CoveredPoly}{\kl[\CoveredPoly]{\mathsf{PolyNNeg}}}
+\newcommand{\CorrectPoly}{\kl[\CorrectPoly]{\mathsf{PolyRec}}}
