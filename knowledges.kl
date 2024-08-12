@@ -1,0 +1,45 @@
+\knowledge{notion}
+ | commutativity
+ | commutative
+\knowledge{notion}
+ | well
+\knowledge{notion}
+ | well-quasi-ordering
+ | well-quasi-ordered
+\knowledge{notion}
+ | good sequences
+ | good sequence
+ | good
+\knowledge{notion}
+ | bad
+\knowledge{notion}
+ | residual
+ | residuals
+\knowledge{notion}
+ | $\NPoly [0]$-transducer
+ | $\NPoly [0]$-transducers
+ | $\NPoly [k-1]$-transducer
+\knowledge{notion}
+ | $k$-residual transducer
+ | $0$-residual transducer
+\knowledge{notion}
+ | $\Rel $-polyregular functions
+\knowledge{notion}
+ | polyregular functions
+\knowledge{notion}
+ | prefix ordering
+\knowledge{notion}
+ | downwards closed
+\knowledge{notion}
+ | ultimately polynomial
+\knowledge{notion}
+ | computes
+ | computed
+\knowledge{notion}
+ | residual transducer
+\knowledge{notion}
+ | aperiodic ordering
+\knowledge{notion}
+ | counter-free
+\knowledge{notion}
+ | counter

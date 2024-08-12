@@ -1,0 +1,27 @@
+% Description: Metadata for the plain template
+%
+% Warning: this file is generated automatically
+% from the paper-meta.yaml file. If you really want to edit
+% this file, please mirror the changes to paper-meta.yaml.
+
+\title{$title$}
+\author{%
+    $for(author)$
+    $author.name$$if(author.affiliation)$\thanks{$author.affiliation$}$endif$
+    $sep$ \and
+    $endfor$
+}
+
+$if(date)$
+\date{$date$}
+$endif$
+
+\newcommand{\makeabstract}{
+\begin{abstract}
+$if(abstract)$
+    $abstract$
+$else$
+    Please write an abstract in the \texttt{paper-meta.yaml} file.
+$endif$
+\end{abstract}
+}
