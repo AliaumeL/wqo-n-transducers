@@ -16,6 +16,8 @@ abstract: |
   to quasi-ordering in order to study the class of functions
   from $\Sigma^*$ to $\mathbb{N}$. The analogue of
   having a finite index is then being a well-quasi-ordering.
+  This provides a canonical object to describe $\mathbb{N}$-polyregular functions,
+  which was lacking prior to this work.
 author:
   - name: "Aliaume Lopez"
     orcid: "0000-0002-1825-0097"

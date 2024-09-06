@@ -7,7 +7,9 @@
 \title{$title$}
 \author{%
     $for(author)$
-    $author.name$$if(author.affiliation)$\thanks{$author.affiliation$}$endif$
+    $author.name$$if(author.affiliation)$\thanks{$author.affiliation$}$endif$%
+    % then mail address with a letter symbol 
+    $if(author.email)$~~\href{mailto:$author.email$}{\Letter}$endif$%
     $sep$ \and
     $endfor$
 }
