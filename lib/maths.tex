@@ -5,6 +5,9 @@
 \knowledge{\Res}{notion}
 
 
+\NewDocumentCommand{\resequiv}{ m m }{\mathrel{\kl[\resequiv]{\equiv_{{#1},{#2}}}}}
+\knowledge{\resequiv}{notion}
+
 \NewDocumentCommand{\resleq}{ m m }{\mathrel{\kl[\resleq]{\leq_{{#1},{#2}}}}}
 \knowledge{\resleq}{notion}
 \NewDocumentCommand{\resleqsf}{ m m }{\mathrel{\kl[\resleqsf]{\leq_{{#1},{#2}}^{\mathsf{sf}}}}}
@@ -55,3 +58,10 @@
 
 \newcommand{\CoveredPoly}{\kl[\CoveredPoly]{\mathsf{PolyNNeg}}}
 \newcommand{\CorrectPoly}{\kl[\CorrectPoly]{\mathsf{PolyRec}}}
+
+
+\NewDocumentCommand{\Deriv}{ m m m }{\mathop{\withkl{\kl[\Deriv]}{\cmdkl{\Delta}_{#3}^{#2}\mathopen{\cmdkl{[}}#1\mathclose{\cmdkl{]}}}}}
+\knowledge{\Deriv}{notion}
+
+\NewDocumentCommand{\counting}{ m }{\mathop{\withkl{\kl[\counting]}{\cmdkl{\text{nbr}[}#1\cmdkl{]}}}}
+\knowledge{\counting}{notion}

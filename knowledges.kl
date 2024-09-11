@@ -1,45 +1,98 @@
 \knowledge{notion}
  | commutativity
  | commutative
+
 \knowledge{notion}
  | well
+
 \knowledge{notion}
  | well-quasi-ordering
+ | well-quasi-orderings
  | well-quasi-ordered
+
 \knowledge{notion}
  | good sequences
  | good sequence
  | good
+
 \knowledge{notion}
  | bad
+ | bad sequence
+
 \knowledge{notion}
  | residual
  | residuals
+
+\knowledge{notion}
+ | growth
+ | growth rate
+
+
+\knowledge{notion}
+ | continuous
+
+\knowledge{notion}
+ | star-free 
+ | star-free $\Nat $-polyregular function
+ | star-free $\Rel $-polyregular function
+
+\knowledge{notion}
+ | $\Rel $-polyregular functions
+ | $\Rel $-polyregular function
+ | $\Rel $-polyregular
+ | $\mathbb {S}$-polyregular
+ | $\mathbb {S}$-polyregular functions
+ | $\mathbb {S}$-polyregular function
+ | $\Nat $-polyregular functions
+ | $\Nat $-polyregular function
+ | $\Nat $-polyregular
+
+\knowledge{notion}
+ | polyregular functions
+
+\knowledge{notion}
+ | prefix ordering
+
+\knowledge{notion}
+ | downwards closed
+
+\knowledge{notion}
+ | ultimately polynomial
+
+\knowledge{notion}
+ | noncommutative derivative
+
+\knowledge{notion}
+ | computes
+ | computed
+
 \knowledge{notion}
  | $\NPoly [0]$-transducer
  | $\NPoly [0]$-transducers
  | $\NPoly [k-1]$-transducer
+ | $\NPoly [1]$-transducer
+ | $\NSF [0]$-transducer
+ | $\mathcal {H}$-transducer
+ | $\mathcal {H}$-transducers
+
 \knowledge{notion}
- | $k$-residual transducer
- | $0$-residual transducer
-\knowledge{notion}
- | $\Rel $-polyregular functions
-\knowledge{notion}
- | polyregular functions
-\knowledge{notion}
- | prefix ordering
-\knowledge{notion}
- | downwards closed
-\knowledge{notion}
- | ultimately polynomial
-\knowledge{notion}
- | computes
- | computed
+ | aperiodic monoid
+ | aperiodic@monoid
+
 \knowledge{notion}
  | residual transducer
+ | residual transducers
+ | $k$-residual transducers
+ | $k$-residual transducer
+ | $0$-residual transducer
+ | $1$-residual transducer
+
 \knowledge{notion}
  | aperiodic ordering
+ | aperiodic@ordering
+
 \knowledge{notion}
  | counter-free
 \knowledge{notion}
  | counter
+ | counters
